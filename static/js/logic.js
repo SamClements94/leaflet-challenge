@@ -5,7 +5,7 @@ d3.json(queryUrl).then(function (data) {
 });
 
 function changeColor(feature) {
-    console.log(feature.geometry)
+   
 
     if (feature.geometry.coordinates[2] > 90) {
       return "darkred";
